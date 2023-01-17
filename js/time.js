@@ -45,6 +45,7 @@ setInterval(() => {
   } else {
     currentTimeHtml =
       "<img class='boardsign' src='https://img.shields.io/badge/小店-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" +
+      "小破站已运行" +
       time[0] +
       " 年 " +
       time[1] +
