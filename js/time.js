@@ -30,11 +30,12 @@ setInterval(() => {
   }
   if (Number(time[2]) < 22 && Number(time[2]) > 7) {
     currentTimeHtml =
-      "<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" +
+      "<img class='boardsign' src='https://img.shields.io/badge/小店-营业中-6adea8?style=social&logo=cakephp' title='距离百年老店也就差不到一百年~'><div id='runtime'>" +
+      "小破站已运行" +
       time[0] +
-      " YEAR " +
+      " 年 " +
       time[1] +
-      " DAYS " +
+      " 天 " +
       time[2] +
       " : " +
       time[3] +
@@ -43,12 +44,11 @@ setInterval(() => {
       "</div>";
   } else {
     currentTimeHtml =
-      "<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" +
-      "小破站已建成" +
+      "<img class='boardsign' src='https://img.shields.io/badge/小店-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" +
       time[0] +
       " 年 " +
       time[1] +
-      "天" +
+      " 天 " +
       time[2] +
       " : " +
       time[3] +

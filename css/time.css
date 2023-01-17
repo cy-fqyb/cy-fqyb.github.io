@@ -3,7 +3,6 @@
     font-family: 'UnidreamLED';
     src: url("https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/UnidreamLED.ttf");
     font-display: swap;
-    font-size: 12px;
 }
 
 div#runtime {
@@ -13,7 +12,8 @@ div#runtime {
     padding-inline: 5px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.7);
-    font-family: 'UnidreamLED';
+    font-family: '华文行楷';
+    font-size: 14px;
 }
 
 [data-theme="dark"] div#runtime {
